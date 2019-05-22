@@ -74,7 +74,7 @@ else:
   print("Not Perfect Square")
   
 
-p7-print the perfect sqrs between two intervals
+p7-count the perfect sqrs between two intervals
 def CountSquares(a, b): 
   
     cnt = 0 
@@ -100,6 +100,23 @@ for i in range(1,n+1):
         break
 else:
     print(n,"is not a power of two")
+    
+p9-print the perfect square between two intervals
+def CountSquares(a, b): 
+    
+    list=[]
+    for i in range (a, b + 1): 
+        j = 1; 
+        while j * j <= i: 
+            if j * j == i: 
+                 list.append(i)
+            j = j + 1
+        i = i + 1
+    return list
+a = 9
+b = 25
+print ("Count of squares is:", CountSquares(a, b) )
+
 
         
            
