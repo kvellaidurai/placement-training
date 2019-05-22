@@ -126,5 +126,14 @@ s=math.gcd(a,b)
 print(s)
 
 
+p11-lcm of numbers
+import math
+a=int(input())
+b=int(input())
+s=math.gcd(a,b)
+lcm=a*b//s
+print(lcm)
+
+
         
            
