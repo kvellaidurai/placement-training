@@ -50,3 +50,13 @@ while(num!=0):
     product=product*(num%10)
     num=num//10
 print(product)
+
+
+d6-count number of digits in a number
+n=int(input())
+s=0
+while(n>0):
+    n=n//10
+    s=s+1
+print(s)
+
