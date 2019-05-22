@@ -29,3 +29,16 @@ if(num==n):
 else:
     print("not palinrome")
 
+    
+d4-check amstrong or not
+num=int(input())
+sum=0
+t=num
+while(t>0):
+    d=t%10
+    sum+=d**3
+    t=t//10
+if(num==sum):
+    print("Amstrong")
+else:
+    print("Not Amstrong")
