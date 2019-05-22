@@ -118,5 +118,13 @@ b = 25
 print ("Count of squares is:", CountSquares(a, b) )
 
 
+p10-gcd of numbers
+import math
+a=int(input())
+b=int(input())
+s=math.gcd(a,b)
+print(s)
+
+
         
            
